@@ -1,0 +1,88 @@
+body {
+  background-color: #c6d7eb;
+}
+
+h1 {
+  font-family: 'Merienda One', cursive;
+  color: #1868ae;
+
+}
+
+.container {
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.player{
+  height: 8vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.music_player {
+  width: 85vw;
+}
+
+.search-form {
+  height: 7vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#searchBox {
+  width: 85vw;
+  height: 3vw;
+}
+
+#searchBtn {
+  border: 1px solid #d9a5b3;
+  font-size: 16px;
+  border-radius: .25em;
+  width: 10vw;
+  height: 3vw;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell{
+  flex:1;
+}
+
+.grid > .grid-cell {
+  flex: 0 0 20%;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 0 30px 0 30px;
+}
+
+.songTitle {
+  font-size: 16px;
+  font-family: inherit;
+  text-align: center;
+  margin: 0 30px 0 30px;
+
+
+}
+
+.artist {
+
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 30px 0 30px;
+
+}
