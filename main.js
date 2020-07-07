@@ -61,3 +61,17 @@ searchResults.addEventListener('click',function(e){
   label.innerHTML = "<p><strong>Now playing: " + e.target.alt + "</strong></p>";
   }
 });
+
+
+
+
+//Widget
+
+// SC.initialize({
+//   client_id: '095fe1dcd09eb3d0e1d3d89c76f5618f'
+// });
+
+// var track_url = 'https://soundcloud.com/forss/flickermood';
+// SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+//   console.log('oEmbed response: ', oEmbed);
+// });
