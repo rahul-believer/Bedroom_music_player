@@ -33,8 +33,10 @@ function searchSoundCloud(song){
       songs += "id='" + searchItems[i].id + "'><br>";
       songs += "<span class='songTitle'>";
       songs += searchItems[i].title + "</span><br>";
+      console.log(searchItems[i]);
+      console.log(searchItems[i].user.username);
       songs += "<span class='artist'>";
-      songs += artist.toUpperCase() + "</span></div>";
+      songs += searchItems[i].user.username.toUpperCase() + "</span></div>";
       }else{
         songs += "<div class='grid-cell'>";
         songs += "<img src='noartwork.jpg'  class='artwork'";
@@ -42,7 +44,7 @@ function searchSoundCloud(song){
         songs += "<span class='songTitle'>";
         songs += searchItems[i].title + "</span><br>";
         songs += "<span class='artist'>";
-        songs += artist.toUpperCase() + "</span></div>";
+        songs += searchItems[i].user.username.toUpperCase() + "</span></div>";
         }
       }
       grid.innerHTML = songs;
